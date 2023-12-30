@@ -35,23 +35,23 @@ a.externo::after {
 
 header {
     background-image: linear-gradient(to top, var(--cor4), var(--cor2));
-    height: 150px;
+    min-height: 150px;
     text-align: center;
-    padding-top: 25px;
+    padding: 20px;
 }
 
-header>h1 {
+header > h1 {
     color: white;
     font-family: var(--fonte_destaque);
     font-size: 3em;
     font-weight: normal;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.486);
 }
 
-header>p {
+header > p {
     color: white;
-    max-width: 550px;
+    max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 20px;
@@ -63,20 +63,21 @@ header>p {
 nav {
     background-color: var(--cor4);
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.377);
-    padding: 50px;
+    padding: 14px;
 }
 
 nav>a {
     text-decoration: none;
     color: white;
-    padding: 15px;
+    padding-right: 14px;
+    padding-left: 14px;
     border-radius: 7px;
     transition-duration: 0.4s;
 }
 
 nav>a:hover {
     background-color: var(--cor1);
-
+    padding: 14px;
 }
 
 main {
